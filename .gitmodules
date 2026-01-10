@@ -67,3 +67,6 @@
 [submodule "start/omnisharp-extended-lsp.nvim"]
 	path = start/omnisharp-extended-lsp.nvim
 	url = https://github.com/Hoffs/omnisharp-extended-lsp.nvim.git
+[submodule "start/themes/catppuccin"]
+	path = start/themes/catppuccin
+	url = https://github.com/catppuccin/nvim.git
