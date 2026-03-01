@@ -8,7 +8,7 @@ git clone git@github.com:davbt/nvim-config.git $HOME/.config/nvim-plugins
 ```
 Add submodule:
 ```bash
-git add submodule https://github.com/random/cool-plugin.nvim.git <some_dir>
+git add submodule https://github.com/random/<some-plugin>.git start/<some-plugin>
 ```
 
 Remove submodule:
