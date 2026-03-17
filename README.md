@@ -1,11 +1,9 @@
 # nvim-plugins
 
+Also see [nvim-config](https://github.com/davbt/nvim-config) for full setup script.
+
 Plugins as submodules at specific commit hashes:
 
-Setup:
-```bash
-git clone git@github.com:davbt/nvim-config.git $HOME/.config/nvim-plugins
-```
 Add submodule:
 ```bash
 git add submodule https://github.com/random/<some-plugin>.git start/<some-plugin>
