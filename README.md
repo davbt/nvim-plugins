@@ -1,18 +1,19 @@
 # nvim-plugins
+Plugins as submodules.
 
 Also see [nvim-config](https://github.com/davbt/nvim-config) for full setup script.
 
-Plugins as submodules at specific commit hashes:
-
 Add submodule:
 ```bash
-git add submodule https://github.com/random/<some-plugin>.git start/<some-plugin>
+git submodule add https://github.com/random/<some-plugin>.git start/<some-plugin>
+cd start/<some-plugin>
+git checkout <some-commit>
 ```
 
 Remove submodule:
 ```bash
-git rm start/cool-plugin.nvim
-rm -rf .git/modules/start/cool-plugin.nvim
-git config --remove-section submodule.start/cool-plugin.nvim
+git rm start/<some-plugin>
+rm -r .git/modules/start/<some-plugin>
+git config --remove-section submodule.start/<some-plugin>
 ```
 
